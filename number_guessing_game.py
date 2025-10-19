@@ -1,7 +1,10 @@
-import random
+import random  # Подключаем модуль random
 
 def is_valid(num, right):
-   
+    """
+    Проверяет, что num — это число от 1 до right.
+    Возвращает True, если всё ок, иначе False.
+    """
     return num.isdigit() and 1 <= int(num) <= right
 
 
